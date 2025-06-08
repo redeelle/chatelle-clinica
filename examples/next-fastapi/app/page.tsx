@@ -12,8 +12,8 @@ export default function Home() {
 
   const handleReject = () => {
     setAccepted(false);
-    alert('Você não poderá prosseguir sem aceitar o Termo de Consentimento.');
-  };
+    window.location.href = '/end';
+};
 
   return (
     <main className="flex flex-col justify-center items-center min-h-screen bg-gradient-to-b from-green-100 to-green-300 p-8 text-center text-slate-800">
