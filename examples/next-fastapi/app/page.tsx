@@ -7,7 +7,7 @@ export default function Home() {
 
   const handleAccept = () => {
     setAccepted(true);
-    window.location.href = '/01-chat-text'; // Rota padrão após aceite
+    window.location.href = '/chat'; // Rota padrão após aceite
   };
 
   const handleReject = () => {
